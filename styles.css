@@ -1,0 +1,53 @@
+h1, h2 {
+    color:gold;
+    margin: 25px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.jeopardy-header {
+    margin: 40px;
+    border: 40px;
+}
+
+.submit-me {
+    margin: 30px;
+    padding: 30px;
+    color: gold;
+}
+
+.score {
+    text-align: center;
+}
+
+.table {
+    background-color: #7AB5E3;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.one {
+    font-size: 25px;
+    text-align: center;
+}
+
+.two {
+    font-size: 25px;
+    text-align: center;
+}
+
+.four {
+    font-size: 25px;
+    text-align: center;
+}
+
+.six {
+    font-size: 25px;
+    text-align: center;
+}
+
+.eight {
+    font-size: 25px;
+    text-align: center;
+}

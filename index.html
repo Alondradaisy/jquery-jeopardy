@@ -6,14 +6,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JQUERY JEOPARDY</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
-    
-
-
-
+    <div class="container-fluid">
+        
+        <div class="table">
+            
+            <div class="jeopardy-header">
+                <h1>JQUERY JEOPARDY</h1>
+            </div>
+            
+            <div class="score">
+                <h2>YOUR SCORE IS:</h2>
+            </div>
+            
+            <div class="one">   
+                <table style="width: 100%";>
+                    <tr>
+                        <td><button class="item">$100</button></td>
+                        <td><button class="item">$100</button></td>
+                        <td><button class="item">$100</button></td>
+                        <td><button class="item">$100</button></td>
+                        <td><button class="item">$100</button></td>
+                    </tr>
+                </div> 
+                
+                <br>
+                <div class="two">
+                    <tr>
+                        <td><button class="item">$200</button></td>
+                        <td><button class="item">$200</button></td>
+                        <td><button class="item">$200</button></td>
+                        <td><button class="item">$200</button></td>
+                        <td><button class="item">$200</button></td>
+                        
+                    </tr>
+                </div>   
+                <br>
+                <div class="four">
+                    <tr>
+                        <td><button class="item">$400</button></td>
+                        <td><button class="item">$400</button></td>
+                        <td><button class="item">$400</button></td>
+                        <td><button class="item">$400</button></td>
+                        <td><button class="item">$400</button></td>
+                        
+                    </tr>
+                </div>
+                <br>
+                <div class="six">
+                    <tr>
+                        <td><button class="item">$600</button></td>
+                        <td><button class="item">$600</button></td>
+                        <td><button class="item">$600</button></td>
+                        <td><button class="item">$600</button></td>
+                        <td><button class="item">$600</button></td>
+                    </tr>
+                </div>
+                <br>
+                <div class="eight">
+                    <tr>
+                        <td><button class="item">$800</button></td>
+                        <td><button class="item">$800</button></td>
+                        <td><button class="item">$800</button></td>
+                        <td><button class="item">$800</button></td>
+                        <td><button class="item">$800</button></td>
+                    </tr>
+                </div>
+            </table>
+            <div class="input-group">
+                <div class="form-outline">
+                    <input type="search" id="form1" class="form-control" />
+                    
+                </div>
+                <button type="button" id="search-me" class="btn btn-primary">Search Me
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+        </div> 
+    </div>
     <script src="main.js"></script>
     <script src="jeopardy.js"></script>
+</div>
 </body>
 </html>
